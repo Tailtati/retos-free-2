@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <meta charset="UTF-8">
+        <title>Formulario de contacto</title>
+        <link href="/css/estilos.css" rel="stylesheet" type="text/css"/>
+    </Head>
+    <body> 
+        <main>
+            <section>
+                <h1>Formulario de contacto</h1>
+            <form>
+                <h2>Contacto</h2>
+                <label for="nombre" id="nombre-label">Nombre:</label>
+                <input type="text" name="nombre" required placeholder="Tu nombre">
+                <label for="Apellido" id="apellido-label">Apellido:</label>
+                <input type="text" name="apellido" required placeholder="Tu apellido">
+                <label for="edad" id="edad-label">Edad</label>
+                <input type="number" name="edad" min="12" max="100" required placeholder="Ingresa tu edad">
+                <label for="Correo" id="Correo-label">Correo:</label>
+                <input type="email" name="correo" required placeholder="ejemplo1@gmail.com">
+                <label for="telefono" id="tel-label">Telefono:</label>
+                <input type="tel" name="numero" name="telefono" required placeholder="xxx-xx-xx" pattern="[0-9]{7}">
+                <h4>¿Que Nesesita?</h4>
+                <textarea name="texto" id="texto" placeholder= "Escriba aquí su mensaje"> </textarea>
+                <input type="submit" value="Enviar" id="boton">
+            </form>
+            </section> 
+        </main>  
+    </body>
+</html>
